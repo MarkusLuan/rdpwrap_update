@@ -28,9 +28,15 @@ jobs:
         python -m pip install -r requirements.txt
         python -m pip install pyinstaller
     - name: Build
-      run: pyinstaller --onefile update.py
+      run: pyinstaller update.py --distpath .
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Executable
-        path: dist/update.exe
+        name: RDPWrap_Update
+        path: |
+            links.json
+            rdpwrap.ini
+            requirements.txt
+            update.py
+            update.exe
+            README.md

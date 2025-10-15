@@ -6,7 +6,7 @@
 * O arquivo [rdpwrap.ini](https://github.com/MarkusLuan/rdpwrap_update/blob/master/rdpwrap.ini) foi gerado pelo script e adicionado uma configuração funcional para a versão 10.0.19041.6456 do Windows.
 
 ### Execução
-Para executar é necessário instalar o [Python 3](https://www.python.org/).
+Caso possua o [Python 3](https://www.python.org/) ou deseje executar pelo código fonte...
 * Faça o download do zip
 * Abra o prompt de comando (cmd) ou powershell
 * Execute o seguinte comando
@@ -14,6 +14,10 @@ Para executar é necessário instalar o [Python 3](https://www.python.org/).
 pip install -r requirements.txt
 python update.py
 ```
+
+Para executar sem o python...
+* Faça o download do zip
+* Execute o update.exe
 
 ### Soluções de problemas
 Caso mesmo após atualizar o RDPWrap ainda não funcione, tente pesquisar no Google por "RDPWrap.ini 'versão do Windows'", substituindo o 'versão do Windows' pela correspondente (por exemplo, "RDPWrap.ini 10.0.19041.6456") e se encontrar em algum forum algum trecho como
