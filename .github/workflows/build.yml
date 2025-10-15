@@ -28,7 +28,9 @@ jobs:
         python -m pip install -r requirements.txt
         python -m pip install pyinstaller
     - name: Build
-      run: pyinstaller update.py --distpath .
+      run: |
+        pyinstaller update.py
+        copy dist/update.exe .
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
