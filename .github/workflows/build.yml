@@ -30,7 +30,7 @@ jobs:
     - name: Build
       run: |
         pyinstaller update.py
-        copy dist/update.exe .
+        copy dist/update/update.exe .
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
