@@ -11,6 +11,7 @@ Para executar é necessário instalar o [Python 3](https://www.python.org/).
 * Abra o prompt de comando (cmd) ou powershell
 * Execute o seguinte comando
 ```bash
+pip install -r requirements.txt
 python update.py
 ```
 
